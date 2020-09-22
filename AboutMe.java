@@ -1,13 +1,15 @@
 /*
- * Programmer:
- * Date:
- * Purpose:
+ * Programmer: Alex Chickowski
+ * Date: September 22, 2020
+ * Purpose: To print my age, name and height and then print my new age, and height
  */
 
 public class AboutMe {
     public static void main (String [] args) {
         // Declaring the variables
-        // TODO: Write the code the declares the variables
+    	String myName = "Alex";
+    	int myAge = 15;
+    	double myHeightInMetres = 1.88;
 
         // Print the values
         System.out.println("Hi, my name is " + myName);
@@ -15,10 +17,12 @@ public class AboutMe {
         System.out.println("My height is " + myHeightInMetres + " m.");
 
         // Change the variables
-        // TODO: Write the code that changes the variables
+        myAge = 18;
+        myHeightInMetres = 1.94;
 
         // Print the new values
         System.out.println("Some time passes...");
-        // TODO: Write the last two print statements
+        System.out.println("I am now " + myAge + " years old.");
+        System.out.println("I have grown and am " + myHeightInMetres + " m tall.");
     }
 }
